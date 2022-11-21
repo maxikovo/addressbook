@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("clone the project") {
             steps{
-                git "https://github.com/vaadin/addressbook"
+                git "https://github.com/maxikovo/addressbook"
             }
         }
         stage("compile"){
