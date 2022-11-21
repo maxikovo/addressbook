@@ -20,7 +20,7 @@ pipeline {
 		}            
         stage("package"){
             steps{
-		 echo "wrapping all packages"
+		 echo "all packages"
                 sh "mvn package"
             }            
         }
